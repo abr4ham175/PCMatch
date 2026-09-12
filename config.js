@@ -7,5 +7,4 @@ const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_XajkimHh2FU6Lx6HMimfjA_HWCi7E9Q
 if (!SUPABASE_URL.includes('TU-PROYECTO') && !SUPABASE_PUBLISHABLE_KEY.includes('TU_CLAVE')) {
   window.pcmatchSupabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 }
-Configurar conexión con Supabase
-cambio agrega credenciales
+
