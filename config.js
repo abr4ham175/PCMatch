@@ -8,3 +8,4 @@ if (!SUPABASE_URL.includes('TU-PROYECTO') && !SUPABASE_PUBLISHABLE_KEY.includes(
   window.pcmatchSupabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 }
 Configurar conexión con Supabase
+cambio agrega credenciales
